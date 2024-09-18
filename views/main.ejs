@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            place-items: center;
+            height: 100vh;
+        }
+        .contact_add,.contact_search{
+            height: 20px;
+            background-color: green;
+            padding: 40px 20px;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+        .contact_add a,.contact_search a{
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+        .contact_add:hover,.contact_search:hover{
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact_add">
+            <a href="/index">Add Contact</a>
+        </div>
+        <div class="contact_search">
+            <a href="/search">Search Contact</a>
+        </div>
+    </div>
+</body>
+</html>
